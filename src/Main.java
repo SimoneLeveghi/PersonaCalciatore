@@ -8,5 +8,8 @@ public class Main {
 
         Calciatore c = new Calciatore("Mario", "Maschio", 2000, "Centrocampista", 7);
         System.out.println(c.toString());
+
+        Calciatore c2 = (Calciatore) c.clone();
+        System.out.println(c2.toString());
     }
 }
