@@ -12,10 +12,12 @@ public class Calciatore extends Persona {
     }
 
     public String toString() {
-        return "{" +
-                super.toStringInner() + "," +
+        return "{" + toStringInner() + "}";
+    }
+
+    public String toStringInner() {
+        return super.toStringInner() + "," +
                 "\"ruolo\":\"" + this.ruolo + "\"," +
-                "\"numeroMaglia\":" + this.numeroMaglia +
-                "}";
+                "\"numeroMaglia\":" + this.numeroMaglia;
     }
 }
