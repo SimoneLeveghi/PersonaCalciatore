@@ -1,2 +1,3 @@
-public class Calciatore {
+public class Calciatore extends Persona {
+
 }
