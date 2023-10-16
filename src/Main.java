@@ -5,5 +5,7 @@ public class Main {
 
         Persona p2 = (Persona) p.clone();
         System.out.println(p2.toString());
+
+        Calciatore c = new Calciatore("Mario", "Maschio", 2000, "Centrocampista", 7);
     }
 }
