@@ -1,5 +1,3 @@
-import java.util.Date;
-
 public class Persona {
     private String nome;
     private String sesso;
@@ -9,6 +7,22 @@ public class Persona {
         this.nome = nome;
         this.sesso = sesso;
         this.annoNascita = annoNascita;
+    }
+
+    public String getNome() {
+        return nome;
+    }
+
+    public String getSesso() {
+        return sesso;
+    }
+
+    public int getAnnoNascita() {
+        return annoNascita;
+    }
+
+    public Object clone() {
+        return new Persona(this.nome, this.sesso, this.annoNascita);
     }
 
     public String toString() {
