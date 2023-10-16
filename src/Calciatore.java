@@ -3,10 +3,10 @@ public class Calciatore extends Persona {
     private int numeroMaglia;
 
     public Calciatore(
-            String nome, String sesso, int annoNascita,
+            String nome, String sesso, int annoNascita, int numeroScarpe,
             String ruolo, int numeroMaglia
     ) {
-        super(nome, sesso, annoNascita);
+        super(nome, sesso, annoNascita, numeroScarpe);
         this.ruolo = ruolo;
         this.numeroMaglia = numeroMaglia;
     }
