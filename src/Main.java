@@ -7,5 +7,6 @@ public class Main {
         System.out.println(p2.toString());
 
         Calciatore c = new Calciatore("Mario", "Maschio", 2000, "Centrocampista", 7);
+        System.out.println(c.toString());
     }
 }
