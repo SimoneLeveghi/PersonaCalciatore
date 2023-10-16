@@ -11,6 +11,22 @@ public class Calciatore extends Persona {
         this.numeroMaglia = numeroMaglia;
     }
 
+    public String getRuolo() {
+        return ruolo;
+    }
+
+    public int getNumeroMaglia() {
+        return numeroMaglia;
+    }
+
+    public void setRuolo(String ruolo) {
+        this.ruolo = ruolo;
+    }
+
+    public void setNumeroMaglia(int numeroMaglia) {
+        this.numeroMaglia = numeroMaglia;
+    }
+
     public String toString() {
         return "{" + toStringInner() + "}";
     }
